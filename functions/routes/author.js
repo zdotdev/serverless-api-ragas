@@ -1,5 +1,5 @@
 const express = require('express')
-const AuthorModel = reuqire('../models/author')
+const AuthorModel = require('../models/author.js')
 const router = express.Router()
 
 router.get('/', async (req, res) => {
